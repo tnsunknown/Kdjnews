@@ -1,8 +1,11 @@
 [build]
-  functions = "functions"
-  publish = "public"  # Optional, if you add a frontend
+  functions = "functions"  # Only functions
+
+# Remove or comment out the publish line
+# publish = "public"
 
 [[redirects]]
-  from = "/*"
+  from = "/latest-posts"
   to = "/.netlify/functions/latest-posts"
   status = 200
+  force = true
