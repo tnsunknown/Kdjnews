@@ -1,0 +1,8 @@
+[build]
+  functions = "functions"
+  publish = "public"  # Optional, if you add a frontend
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/latest-posts"
+  status = 200
