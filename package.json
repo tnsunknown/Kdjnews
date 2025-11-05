@@ -1,0 +1,16 @@
+{
+  "name": "chathurakdj-latest-posts",
+  "version": "1.0.0",
+  "description": "Latest KDJ Posts API",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "netlify-cli": "^16.0.0"
+  }
+}
